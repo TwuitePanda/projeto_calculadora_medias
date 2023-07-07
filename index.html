@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+    <title>Calculo de médidas</title>
+    <link rel="preconect" href="https://fonts.googleapis.com">
+    <link rel="preconect" href="https://fonts.googleapis.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <img src="./images/images/logo.png" alt="capelo e diploma">
+        <h1>Calculadora de médidas</h1>
+    </header>
+        <form id="form-atividade">
+            <input type="text" id="nome-atividade" required placholder="Nomke da atividade" />
+            <input type="number" id="nome-atividade" required placeholder="Nota da atividade" min="0" max="10" />
+            <button type="submit>">Adicionar +</button>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Nome da atividade
+                    </th>
+                    <th>Nota da atividade</th>
+                    <th>Aprovado?</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Médida final</td>
+                    <td id="media-final-valor">---</td>
+                    <td id="media-final-resultado">---</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
